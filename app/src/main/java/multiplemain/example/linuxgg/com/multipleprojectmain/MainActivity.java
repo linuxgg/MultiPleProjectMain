@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity
 
     private void multiTest() {
         Log.d("test", MyClass.MyTest());// use java_lib
+
         Log.d("test", AndroidLib.TomTest());// use android lib
 
 
