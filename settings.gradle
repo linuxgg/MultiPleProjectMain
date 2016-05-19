@@ -1,1 +1,6 @@
 include ':app'
+
+include(':MultipleProjectSub001')
+project(':MultipleProjectSub001').projectDir = new File('/backup/lib/myExample/MultipleProjectSub001') //update the file path
+include(':MultipleProjectSub001:java_lib')
+include(':MultipleProjectSub001:androidlib')

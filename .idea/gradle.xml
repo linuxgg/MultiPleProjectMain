@@ -9,12 +9,18 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001/androidlib" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001/java_lib" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001/androidlib" />
+            <option value="$PROJECT_DIR$/../MultipleProjectSub001/java_lib" />
           </set>
         </option>
       </GradleProjectSettings>
