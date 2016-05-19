@@ -60,6 +60,7 @@ dependencies {
 
 >3.If meet "Dexxxxxx" error when include Java_lib:
 then: in build.gradle(java_lib)
+<code>
 apply plugin: 'java'
 
 configurations{
@@ -69,6 +70,6 @@ configurations{
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-
+</code>
 #====END & ENJOY
 
