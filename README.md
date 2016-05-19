@@ -13,16 +13,16 @@ No LSB modules are available.
 Distributor ID:	Ubuntu
 Description:	Ubuntu 14.04.4 LTS
 Release:	14.04
-Codename:	trusty
+Codename:	trust
 
 IDE:
 Android Studio 2.1
-Build #AI-143.2790544, built on April 22, 2016
+Build \#AI-143.2790544, built on April 22, 2016
 JRE: 1.8.0_92-b14 amd64
 JVM: Java HotSpot(TM) 64-Bit Server VM by Oracle Corporation
 
 Gradle:
-tom@tom-QTJ5:/backup/lib/myExample/MultiPleProjectMain$ gradle -av 
+\$tom@tom-QTJ5:/backup/lib/myExample/MultiPleProjectMain$ gradle -av 
 ------------------------------------------------------------
 Gradle 2.10
 ------------------------------------------------------------
@@ -58,7 +58,7 @@ dependencies {
     compile  project(':MultipleProjectSub001:androidlib')
 }
 
->>3.If meet "Dexxxxxx" error when include Java_lib:
+>3.If meet "Dexxxxxx" error when include Java_lib:
 then: in build.gradle(java_lib)
 apply plugin: 'java'
 
@@ -70,5 +70,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-====END & ENJOY
+#====END & ENJOY
 
