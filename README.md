@@ -6,7 +6,7 @@ Used for to show how use multiple project/modules in diff project. This is the M
 use multiple projects/modules, and easy to maintain.
 
 #2.Environment:
-OS:
+##OS:
 tom@tom-QTJ5:~$ sudo lsb_release -a
 [sudo] password for tom: 
 No LSB modules are available.
@@ -15,14 +15,14 @@ Description:	Ubuntu 14.04.4 LTS
 Release:	14.04
 Codename:	trust
 
-IDE:
+##IDE:
 Android Studio 2.1
 Build \#AI-143.2790544, built on April 22, 2016
 JRE: 1.8.0_92-b14 amd64
 JVM: Java HotSpot(TM) 64-Bit Server VM by Oracle Corporation
 
-Gradle:
-\$tom@tom-QTJ5:/backup/lib/myExample/MultiPleProjectMain$ gradle -av 
+##Gradle:
+tom@tom-QTJ5:/backup/lib/myExample/MultiPleProjectMain$ gradle -av 
 ------------------------------------------------------------
 Gradle 2.10
 ------------------------------------------------------------
@@ -60,7 +60,7 @@ dependencies {
 
 >3.If meet "Dexxxxxx" error when include Java_lib:
 then: in build.gradle(java_lib)
-<code>
+""
 apply plugin: 'java'
 
 configurations{
@@ -70,6 +70,9 @@ configurations{
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-</code>
-#====END & ENJOY
+""
+ 
+------------------------------------------------------------
+====END & ENJOY
+------------------------------------------------------------
 
